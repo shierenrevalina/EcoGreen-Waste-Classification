@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 EcoGreen — Waste Classification
+# EcoGreen — Waste Classification
 
 **An AI-powered web application to classify waste as Organic or Recyclable,  
 complete with disposal guidance, an encyclopedia, waste map, and eco badge system.**
@@ -15,7 +15,7 @@ complete with disposal guidance, an encyclopedia, waste map, and eco badge syste
 
 ---
 
-## 📖 About
+## About
 
 **EcoGreen** is a browser-based waste classification tool that uses deep learning to help people sort their trash correctly. Simply upload a photo (or use your camera), and the AI instantly determines whether the item is **Organic** or **Recyclable** — then provides specific disposal tips, step-by-step recycling guidance, and interesting environmental facts.
 
@@ -28,25 +28,25 @@ The project also includes:
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🔍 **Smart Scanner** | Upload a photo or use the camera to classify waste in real-time |
-| 🤖 **AI Classification** | Powered by TensorFlow.js (MobileNet v2 or custom trained model) |
-| 📊 **Confidence Score** | Shows organic vs recyclable percentage for each prediction |
-| 💡 **Disposal Tips** | Step-by-step recycling/composting guidance per waste type |
-| 📚 **Encyclopedia** | Searchable database of common waste items with categories |
-| 🗺️ **Waste Map** | Locate nearby trash banks (Bank Sampah) with addresses & hours |
-| 🏅 **Eco Badges** | Gamified achievement system tracking your environmental contribution |
-| 📋 **Share Progress** | Share your eco impact to social media or clipboard |
-| 💾 **Local Persistence** | Classification history saved in browser localStorage |
+| **Smart Scanner** | Upload a photo or use the camera to classify waste in real-time |
+| **AI Classification** | Powered by TensorFlow.js (MobileNet v2 or custom trained model) |
+| **Confidence Score** | Shows organic vs recyclable percentage for each prediction |
+| **Disposal Tips** | Step-by-step recycling/composting guidance per waste type |
+| **Encyclopedia** | Searchable database of common waste items with categories |
+| **Waste Map** | Locate nearby trash banks (Bank Sampah) with addresses & hours |
+| **Eco Badges** | Gamified achievement system tracking your environmental contribution |
+| **Share Progress** | Share your eco impact to social media or clipboard |
+| **Local Persistence** | Classification history saved in browser localStorage |
 
 ---
 
-## 🖼️ Application Pages
+## Application Pages
 
-### 1. 🔍 Smart Scanner
+### 1. Smart Scanner
 Upload an image or capture directly from camera. The AI model classifies the waste and shows:
 - Waste category (Organic 🍃 / Recyclable ♻️)
 - Confidence bars for both categories
@@ -55,13 +55,13 @@ Upload an image or capture directly from camera. The AI model classifies the was
 - Disposal tips & step-by-step recycling guide
 - Fun environmental fact
 
-### 2. 📚 Trash Encyclopedia
+### 2. Trash Encyclopedia
 A searchable reference of 12+ common waste items. Each entry shows the item name, description, and whether it is organic or recyclable.
 
-### 3. 🗺️ Interactive Waste Map
+### 3. Interactive Waste Map
 Displays nearby **Bank Sampah** (community-based trash banks) on an interactive map. Click a location to see its address and operating hours.
 
-### 4. 🏅 Eco Badges
+### 4. Eco Badges
 Tracks how many items you have classified and unlocks achievement badges as you progress:
 
 | Badge | Goal | Icon |
@@ -75,7 +75,7 @@ Also calculates your estimated **CO₂ saved**, **trees equivalent**, and **kg r
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend (Website)
 | File | Role |
@@ -105,7 +105,7 @@ Five Jupyter notebooks are included for training or fine-tuning your own waste c
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A modern web browser (Chrome, Edge, Firefox, Safari)
@@ -126,7 +126,7 @@ Five Jupyter notebooks are included for training or fine-tuning your own waste c
    website/index.html
    ```
 
-   > ⚠️ For camera access or local model loading, serve the files via a local HTTP server (see below).
+   > For camera access or local model loading, serve the files via a local HTTP server (see below).
 
 3. **(Optional) Use a local server**
    ```bash
@@ -143,7 +143,7 @@ Five Jupyter notebooks are included for training or fine-tuning your own waste c
 
 ---
 
-## 🤖 Using a Custom Trained Model
+## Using a Custom Trained Model
 
 By default the app uses **MobileNet v2** (pre-trained on ImageNet) with a keyword mapping heuristic to categorize waste. To plug in your own TensorFlow.js model:
 
@@ -156,11 +156,11 @@ By default the app uses **MobileNet v2** (pre-trained on ImageNet) with a keywor
    const CUSTOM_MODEL_PATH = "./model/model.json";  // ← path to your model
    ```
 
-The app will automatically load your custom model and display **"Custom EcoGreen Model ✅"** in the status bar.
+The app will automatically load your custom model and display **"Custom EcoGreen Model"** in the status bar.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 EcoGreen-Waste-Classification/
@@ -201,15 +201,15 @@ Plastic bottles, aluminum cans, cardboard, newspapers, glass jars, steel cans, p
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here are some ways you can help:
 
-- 🧠 Train and share a better classification model
-- 🌍 Add more waste items to the Encyclopedia
-- 🗺️ Add real Waste Map integration (e.g. Google Maps API)
-- 🌐 Add multilingual support (Bahasa Indonesia, etc.)
-- 🐛 Report bugs or suggest features via [Issues](../../issues)
+- Train and share a better classification model
+- Add more waste items to the Encyclopedia
+- Add real Waste Map integration (e.g. Google Maps API)
+- Add multilingual support (Bahasa Indonesia, etc.)
+- Report bugs or suggest features via [Issues](../../issues)
 
 **To contribute:**
 ```bash
@@ -226,22 +226,22 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [TensorFlow.js](https://www.tensorflow.org/js) — in-browser ML inference
 - [MobileNet](https://github.com/tensorflow/tfjs-models/tree/master/mobilenet) — pre-trained image classification
 - [Google Fonts — Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) — typography
-- Inspired by the global movement for smarter, greener waste management 🌍
+- Inspired by the global movement for smarter, greener waste management
 
 ---
 
 <div align="center">
-  <strong>🌿 Together for a cleaner planet</strong><br/>
+  <strong>Together for a cleaner planet</strong><br/>
   © 2026 EcoGreen. Making waste management smarter and greener.
 </div>
