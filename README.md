@@ -20,9 +20,9 @@ complete with disposal guidance, an encyclopedia, waste map, and eco badge syste
 **EcoGreen** is a browser-based waste classification tool that uses deep learning to help people sort their trash correctly. Simply upload a photo (or use your camera), and the AI instantly determines whether the item is **Organic** or **Recyclable** — then provides specific disposal tips, step-by-step recycling guidance, and interesting environmental facts.
 
 The project also includes:
-- 📚 A **Trash Encyclopedia** to look up common waste items
-- 🗺️ An **Interactive Waste Map** showing nearby trash banks (Bank Sampah)
-- 🏅 An **Eco Badges** system to track your classification history and environmental impact
+- A **Trash Encyclopedia** to look up common waste items
+- An **Interactive Waste Map** showing nearby trash banks (Bank Sampah)
+- An **Eco Badges** system to track your classification history and environmental impact
 
 > **Goal:** Make waste management smarter, easier, and more engaging for everyone.
 
@@ -48,7 +48,7 @@ The project also includes:
 
 ### 1. Smart Scanner
 Upload an image or capture directly from camera. The AI model classifies the waste and shows:
-- Waste category (Organic 🍃 / Recyclable ♻️)
+- Waste category (Organic / Recyclable)
 - Confidence bars for both categories
 - Proper bin color to use
 - Hazard level
@@ -64,12 +64,12 @@ Displays nearby **Bank Sampah** (community-based trash banks) on an interactive 
 ### 4. Eco Badges
 Tracks how many items you have classified and unlocks achievement badges as you progress:
 
-| Badge | Goal | Icon |
-|---|---|---|
-| First Step | 1 item | 🌱 |
-| Eco Warrior | 10 items | ♻️ |
-| Green Hero | 25 items | 🌳 |
-| Eco Master | 50 items | 🏆 |
+| Badge | Goal |
+|---|---|
+| First Step | 1 item |
+| Eco Warrior | 10 items |
+| Green Hero | 25 items |
+| Eco Master | 50 items |
 
 Also calculates your estimated **CO₂ saved**, **trees equivalent**, and **kg recycled**.
 
@@ -183,16 +183,16 @@ EcoGreen-Waste-Classification/
 
 ---
 
-## ♻️ Waste Categories
+## Waste Categories
 
-### 🍃 Organic
+### Organic
 Food scraps, fruit peels, vegetable waste, garden cuttings, egg shells, coffee grounds, etc.
 
 - **Bin:** 🟢 Green Bin
 - **Disposal:** Composting — reduces methane emissions by up to 70%
 - **Fact:** 1 kg of organic waste can produce compost for 2 m² of garden soil!
 
-### ♻️ Recyclable
+### Recyclable
 Plastic bottles, aluminum cans, cardboard, newspapers, glass jars, steel cans, plastic bags, etc.
 
 - **Bin:** 🟡 Yellow Bin  
